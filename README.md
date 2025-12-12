@@ -1,5 +1,8 @@
 # Los Angeles Wildfire False-Color & EJI Analysis
 
+![](final-output.png)
+Final visualization from EJI analysis.
+
 **Geospatial analysis of the 2025 Palisades and Eaton fires using Landsat multispectral imagery and tract-level poverty from the Environmental Justice Index (EJI).**  
 Author: Lucian Scher  
 Date: 12/11/2025
@@ -28,7 +31,8 @@ We use three datasets:
 ## Repository Structure
 ```
 
-├── .gitignore 
+├── .gitignore
+├── final-output.png # Visual produced from EJI analysis
 ├── LAfire-EJI-analysis.qmd # EJI/Poverty analysis (census tracts within fire perimeters)
 ├── LAfire-mapping.ipynb # True-color / false-color Landsat composites for Palisades & Eaton
 └── README.md
