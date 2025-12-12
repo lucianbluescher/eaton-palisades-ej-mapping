@@ -1,32 +1,30 @@
-# eds220-hwk4
-# About
-This notebook explores the impacts of the 2025 Eaton and Palisades Fires using remote sensing data. After some data cleaning and exploration we create a false color image of the two fires with boundaries for the affected area in order to visualize the impact of these to wildfires on the surrounding area.
+# Los Angeles Wildfire false color mapping
+### EDS 220: Working with Environmental Datasets: Homework 4
+### Lucian Scher - 11/25/25
 
-# Data Access
-The Data needed for this project can be found in the data/ folder in the repository. Landsat data was given by instructors but can be found on the [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2). Perimeter data can be found on LA counties ArcGis [database](https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about).
+## About
+This notebook containst the 4th assignment for EDS 220, a course in the MEDS program. This project explores the impacts of the 2025 Eaton and Palisades Fires using remote sensing data. After data cleaning and exploration we create a true color and false color image of the two fires with boundaries for the affected area in order to visualize the impact and scale of wildfires on the Los Angeles Area. 
 
-# Repository Structure
+## Data Access
+The first data needed for this project is a simplified collection of bands (red, green, blue, near-infrared and shortwave infrared) from the Landsat Collection 2 Level-2 atmosperically corrected surface reflectance data, collected by the Landsat 8 satellite. Landsat data was accessed 11/15/25 from a drive given by instructors but can be found on at [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2). Eaton and Palisades fire Perimeter data can be found on LA counties ArcGis, and was accessed 11/15/25 [database](https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about).
+
+## Repository Structure
 ```
 eds220-hwk4
 │
-├── README.md                               # Project overview and instructions
 ├── .gitignore                              
-├── .Rhistory                               
-├── eds220-hwk4.Rproj                       # RStudio project file
-├── hwk4-task2-false-color-SCHER.ipynb      # Jupyter notebook for Task 2 false-color analysis
-│
-├── data/                                   # All datasets
-│   ├── Eaton_Perimeter_20250121/           # Shapefile for Eaton fire perimeter
-│   ├── Palisades_Perimeter_20250121/       # Shapefile for Palisades fire perimeter
-│   └── landsat8-2025-02-23-palisades-eaton.nc   # Landsat 8 surface reflectance bands
-│
-└── .Rproj.user/                            # RStudio internal project settings (auto-generated)
+├── README.md                               # Project overview and instruction                  
+├── hwk4-task2-false-color-SCHER.ipynb      # Jupyter notebook for false-color analysis
 ```
-# References
+## References
 
 Data:
 
+_Fire Perimeter Data_:
+
 [1] Palisades and Eaton Dissolved Fire Perimeters (2025). (2025). Arcgis.com. https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
+
+_Landsat 08 geospatial data_:
 
 ‌[2] Microsoft Planetary Computer. (2025). Microsoft.com. https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2
 
