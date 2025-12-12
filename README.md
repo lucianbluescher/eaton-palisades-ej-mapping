@@ -1,11 +1,11 @@
 # Los Angeles Wildfire False-Color & EJI Analysis
 
-**Geospatial analysis of the 2025 Palisades and Eaton fires using Landsat multispectral imagery and tract-level poverty (E_POV200) from the Environmental Justice Index (EJI).**  
+**Geospatial analysis of the 2025 Palisades and Eaton fires using Landsat multispectral imagery and tract-level poverty from the Environmental Justice Index (EJI).**  
 Author: Lucian Scher  
 Date: 12/11/2025
 
 ## Overview
-This repo contains two linked analyses of the 2025 Palisades and Eaton fires. The first (LAfire-mapping.ipynb) maps the fire footprints with Landsat true- and false-color composites to visualize burn extent and severity. The second (LAfire-EJI-analysis.qmd) assesses potential socioeconomic vulnerability by mapping tract-level poverty within each fire perimeter using the Environmental Justice Index. It provides the notebooks/scripts, data sources, and outputs needed to reproduce both the remote-sensing and poverty overlay.
+This repo contains two linked analyses of the 2025 Palisades and Eaton fires. The first (LAfire-mapping.ipynb) maps the fire footprints with Landsat true- and false-color composites to visualize burn extent and severity. The second (LAfire-EJI-analysis.qmd) assesses potential socioeconomic vulnerability by mapping tract-level poverty within each fire perimeter using the the Environmental Justice Index. It provides the notebooks/scripts, data sources, and outputs needed to reproduce both the remote-sensing and poverty overlay.
 
 ## Data
 We use three datasets:
@@ -35,10 +35,11 @@ We use three datasets:
 ```
 
 ## How to Access/Run
-- **Fire perimeters:** Download from ArcGIS Online (link above) if not already local.
+- **Fire perimeters:** Download from ArcGIS Online if not already local.
 - **Landsat:** Fetch from Microsoft Planetary Computer; select the scenes covering the Palisades and Eaton footprints (Landsat 8 L2).
-- **EJI/ACS:** Download E_POV200 (ACS 2018–2022 5-year, Table S1701) via the EJI portal or ACS API.
+- **EJI/ACS:** Download (ACS 2018–2022 5-year, Table S1701) via the EJI portal or ACS API.
 - Open `LAfire-mapping.ipynb` for the imagery composites, and `LAfire-EJI-analysis.qmd` for the tract-level poverty maps. Ensure all datasets are available in your working directory or update the paths accordingly.
+- Run all cells (note: .ipynb may require more kernel setup)
 
 ## References
 - FIRIS / Los Angeles County NIFC fire perimeters: https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
