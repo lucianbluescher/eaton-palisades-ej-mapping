@@ -3,7 +3,7 @@
 ![](final-output.png)
 Final visualization from EJI analysis.
 
-**Geospatial analysis of the 2025 Palisades and Eaton fires using Landsat multispectral imagery and tract-level poverty from the Environmental Justice Index (EJI).**  
+## **Geospatial analysis of the 2025 Palisades and Eaton fires using Landsat multispectral imagery and tract-level poverty from the Environmental Justice Index (EJI).**  
 Author: Lucian Scher  
 Date: 12/11/2025
 
