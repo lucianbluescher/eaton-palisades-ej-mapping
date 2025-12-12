@@ -8,7 +8,7 @@ Author: Lucian Scher
 Date: 12/11/2025
 
 ## Overview
-This repo contains two linked analyses of the 2025 Palisades and Eaton fires. The first (LAfire-mapping.ipynb) maps the fire footprints with Landsat true- and false-color composites to visualize burn extent and severity. The second (LAfire-EJI-analysis.qmd) assesses potential socioeconomic vulnerability by mapping tract-level poverty within each fire perimeter using the the Environmental Justice Index. It provides the notebooks/scripts, data sources, and outputs needed to reproduce both the remote-sensing and poverty overlay.
+This repo contains two linked analyses of the 2025 Palisades and Eaton fires used in our blog post "LA fires". The first (LAfire-mapping.ipynb) maps the fire footprints with Landsat true- and false-color composites to visualize burn extent and severity. The second (LAfire-EJI-analysis.qmd) assesses potential socioeconomic vulnerability by mapping tract-level poverty within each fire perimeter using the the Environmental Justice Index. It provides the notebooks/scripts, data sources, and outputs needed to reproduce both the remote-sensing and poverty overlay.
 
 ## Data
 We use three datasets:
