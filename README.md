@@ -30,12 +30,12 @@ We use three datasets:
 
 ## Repository Structure
 ```
-
+eaton-palisades-mapping
 ├── .gitignore
-├── final-output.png # Visual produced from EJI analysis
 ├── LAfire-EJI-analysis.qmd # EJI/Poverty analysis (census tracts within fire perimeters)
 ├── LAfire-mapping.ipynb # True-color / false-color Landsat composites for Palisades & Eaton
-└── README.md
+├── README.md
+└── final-output.png # Visual produced from EJI analysis
 ```
 
 ## How to Access/Run
